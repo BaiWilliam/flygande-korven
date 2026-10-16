@@ -1,0 +1,71 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 32px;
+    line-height: 24px;
+}
+p.leading {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+footer {
+    color: #132f;
+    background-color: #bada55;
+}
+h1, h2 {
+    color: black;
+}
+* {
+    margin: 25;
+    padding: 25;
+    background-color: aquamarine;
+}
+div.menu-card {
+    background-color: salmon;
+    padding: 24px;
+    width: 320px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+h1 {
+    line-height: 24px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-style: italic;
+    background-color: fuchsia;
+}
+
+h2 {
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 36px;
+    font-family: fantasy;
+    color: purple;
+}
+
+.tagline {
+    font-size: 14px;
+    line-height: 20px;
+}
+header {
+    margin-bottom: 48px;
+}
+
+footer{
+    margin-top: 48px;
+}
