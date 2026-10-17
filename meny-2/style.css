@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 32px;
+    line-height: 24px;
+    background-color: grey;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 24px;
+    background-color: white;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.menu-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.menu-middle aside {
+    flex-basis: 300px;
+}
+
+.menu-middle main {
+    flex-grow: 1;
+}
+
+header {
+    display: flex;
+    gap: 32 px;
+}
+
+header .logo {
+    flex-basis: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .text{
+    flex-grow: 1;
+}
+
+h1 {
+   padding-bottom: 24px;
+   line-height: 32px;
+}
+
+li {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.tagline {
+    padding-bottom: 6px;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+.bottom-picture img{
+width: 180px;
+}
