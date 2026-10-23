@@ -82,3 +82,12 @@ h2 {
 .bottom-picture img{
 width: 180px;
 }
+
+@media (max-width: 499px) {
+    .card {
+        flex-direction: column;
+    }
+    .menu-middle {
+        flex-direction: column;
+    }
+}
